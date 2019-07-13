@@ -2,7 +2,7 @@
 
 import re
 
-FILE = "contigs.fa"
+FILE = "contigs.fa"   #"Unit_test.fa"
 
 # creating an empty list to store fasta header id
 fa_id = []
@@ -74,9 +74,9 @@ mean_depth_coverage = (sum(depth_of_coverage)/num_contig)
 print("This is the mean depth of coverage:", mean_depth_coverage)
 
 # determining N50
-kmer_length.sort()
+kmer_length.sort(reverse=True)
 #print(kmer_length) # used to check if the kmer length was actually sorted
-
+print(kmer_length)
 tot_sum = 0
 for z in range(len(kmer_length)):
     tot_sum += kmer_length[z]
