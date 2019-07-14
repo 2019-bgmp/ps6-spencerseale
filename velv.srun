@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+#SBATCH --partition=bgmp        ### Partition (like a queue in PBS)
+#SBATCH --job-name=velveth-kmer49     ### Job Name
+#SBATCH --output=slurm-%j-%x.out         ### File in which to store job output
+#SBATCH --time=0-01:00:00       ### Wall clock time limit in Days-HH:MM:SS
+#SBATCH --nodes=1               ### Number of nodes needed for the job
+#SBATCH --ntasks-per-node=1     ### Number of tasks to be launched per Node
+#SBATCH --account=bgmp      ### Account used for job submission
+
+# velveth command, changed for each kmer
+#kmer 31
+#/usr/bin/time -v velveth /projects/bgmp/sseale/projects/ps6/kmer31/ 31 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -fastq -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched
+#kmer 41
+#/usr/bin/time -v velveth /projects/bgmp/sseale/projects/ps6/kmer41/ 41 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -fastq -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched
+#kmer 49
+/usr/bin/time -v velveth /projects/bgmp/sseale/projects/ps6/kmer49/ 49 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -fastq -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched
+
+# velvetg command, used below script depending on kmer being analyzed.
+# kmer 31
+#/usr/bin/time -v velvetg /projects/bgmp/sseale/projects/ps6/kmer31/ -ins_length 76 -exp_cov 59.31578947368421
+# kmer 41
+#/usr/bin/time -v velvetg /projects/bgmp/sseale/projects/ps6/kmer41/ -ins_length 76 -exp_cov 46.421052631578945
+# kmer 49
+#/usr/bin/time -v velvetg /projects/bgmp/sseale/projects/ps6/kmer49/ -ins_length 76 -exp_cov 36.10526315789474
+
+# running with coverage cutoffs
+#/usr/bin/time -v velvetg /projects/bgmp/sseale/projects/ps6/kmer49/k49-cov-cut-20x/ -ins_length 76 -exp_cov 36.10526315789474 -cov_cutoff 20
