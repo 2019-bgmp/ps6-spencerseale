@@ -1,0 +1,9 @@
+# of contigs: 2
+max contig length: 168
+mean contig length: 138.0
+genome length: 276
+This is the mean kmer depth of coverage: 75.5
+This is the mean depth of coverage: 125.8
+N50: 168
+# Contig length\tNumber of contigs in this category
+100	2
