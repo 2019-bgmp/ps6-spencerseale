@@ -1,0 +1,160 @@
+[0.000000] Reading roadmap file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//Roadmaps
+[3.954500] 2567781 roadmaps read
+[3.955339] Creating insertion markers
+[4.401409] Ordering insertion markers
+[5.966456] Counting preNodes
+[6.194982] 1228385 preNodes counted, creating them now
+[8.426347] Sequence 1000000 / 2567781
+[9.972387] Sequence 2000000 / 2567781
+[10.783627] Adjusting marker info...
+[11.061538] Connecting preNodes
+[12.900489] Connecting 1000000 / 2567781
+[14.639653] Connecting 2000000 / 2567781
+[15.457370] Cleaning up memory
+[15.457921] Done creating preGraph
+[15.457930] Concatenation...
+[15.722832] Renumbering preNodes
+[15.722836] Initial preNode count 1228385
+[15.734196] Destroyed 1108466 preNodes
+[15.734198] Concatenation over!
+[15.734199] Clipping short tips off preGraph
+[15.768541] Concatenation...
+[15.825981] Renumbering preNodes
+[15.825983] Initial preNode count 119919
+[15.827310] Destroyed 104428 preNodes
+[15.827311] Concatenation over!
+[15.827312] 62938 tips cut off
+[15.827312] 15491 nodes left
+[15.837128] Writing into pregraph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//PreGraph...
+[15.936862] Reading read set file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//Sequences;
+[16.419384] 2567781 sequences found
+[18.422399] Done
+[20.284971] Reading pre-graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//PreGraph
+[20.287919] Graph has 15491 nodes and 2567781 sequences
+[20.331844] Scanning pre-graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//PreGraph for k-mers
+[20.357364] 1644251 kmers found
+[20.468286] Sorting kmer occurence table ... 
+[21.122918] Sorting done.
+[21.122922] Computing acceleration table... 
+[21.155595] Computing offsets... 
+[21.166612] Ghost Threading through reads 0 / 2567781
+[29.788963] Ghost Threading through reads 1000000 / 2567781
+[37.828441] Ghost Threading through reads 2000000 / 2567781
+[41.658515]  === Ghost-Threaded in 20.491940 s
+[41.658520] Threading through reads 0 / 2567781
+[50.522991] Threading through reads 1000000 / 2567781
+[58.788453] Threading through reads 2000000 / 2567781
+[62.942702]  === Threaded in 21.284184 s
+[63.105720] Correcting graph with cutoff 0.200000
+[63.106297] Determining eligible starting points
+[63.118395] Done listing starting nodes
+[63.118396] Initializing todo lists
+[63.119514] Done with initilization
+[63.119515] Activating arc lookup table
+[63.120316] Done activating arc lookup table
+[63.290413] 10000 / 15491 nodes visited
+[63.307475] Concatenation...
+[63.308352] Renumbering nodes
+[63.308353] Initial node count 15491
+[63.308631] Removed 5328 null nodes
+[63.308631] Concatenation over!
+[63.308632] Clipping short tips off graph, drastic
+[63.312120] Concatenation...
+[63.321511] Renumbering nodes
+[63.321512] Initial node count 10163
+[63.321658] Removed 4245 null nodes
+[63.321659] Concatenation over!
+[63.321659] 5918 nodes left
+[63.327485] Writing into graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//Graph2...
+[64.034464] Measuring median coverage depth...
+[64.036017] Median coverage depth = 33.752161
+[64.037668] Removing contigs with coverage < 16.876081...
+[64.041059] Concatenation...
+[64.078633] Renumbering nodes
+[64.078634] Initial node count 5918
+[64.078711] Removed 3662 null nodes
+[64.078712] Concatenation over!
+[64.078764] Concatenation...
+[64.078844] Renumbering nodes
+[64.078845] Initial node count 2256
+[64.078847] Removed 0 null nodes
+[64.078847] Concatenation over!
+[64.078858] Clipping short tips off graph, drastic
+[64.079152] Concatenation...
+[64.079656] Renumbering nodes
+[64.079656] Initial node count 2256
+[64.079703] Removed 89 null nodes
+[64.079704] Concatenation over!
+[64.079704] 2167 nodes left
+[64.079705] Read coherency...
+[64.079729] Identifying unique nodes
+[64.079772] Done, 750 unique nodes counted
+[64.079773] Trimming read tips
+[64.079841] Renumbering nodes
+[64.079841] Initial node count 2167
+[64.079843] Removed 0 null nodes
+[64.079844] Confronted to 0 multiple hits and 0 null over 0
+[64.079844] Read coherency over!
+[64.089994] Starting pebble resolution...
+[64.100541] Computing read to node mapping array sizes
+[64.162183] Computing read to node mappings
+[64.705247] Estimating library insert lengths...
+[64.718885] Done
+[64.718895] Computing direct node to node mappings
+[64.796184] Scaffolding node 0
+[64.873839]  === Nodes Scaffolded in 0.154944 s
+[64.880147] Preparing to correct graph with cutoff 0.200000
+[64.882875] Cleaning memory
+[64.882877] Deactivating local correction settings
+[64.882894] Pebble done.
+[64.882895] Starting pebble resolution...
+[64.893794] Computing read to node mapping array sizes
+[64.956019] Computing read to node mappings
+[65.557593] Estimating library insert lengths...
+[65.571009] Done
+[65.571020] Computing direct node to node mappings
+[65.656070] Scaffolding node 0
+[65.741789]  === Nodes Scaffolded in 0.170769 s
+[65.748474] Preparing to correct graph with cutoff 0.200000
+[65.751275] Cleaning memory
+[65.751277] Deactivating local correction settings
+[65.751295] Pebble done.
+[65.751296] Concatenation...
+[65.751377] Renumbering nodes
+[65.751378] Initial node count 2167
+[65.751381] Removed 0 null nodes
+[65.751390] Concatenation over!
+[65.751390] Removing reference contigs with coverage < 16.876081...
+[65.751471] Concatenation...
+[65.751543] Renumbering nodes
+[65.751543] Initial node count 2167
+[65.751546] Removed 0 null nodes
+[65.751555] Concatenation over!
+[65.763071] Writing contigs into /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//contigs.fa...
+[66.169905] Writing into stats file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//stats.txt...
+[66.190146] Writing into graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500//LastGraph...
+[66.710741] Estimated Coverage cutoff = 16.876081
+Final graph has 2167 nodes and n50 of 1774, max 10419, total 1143128, using 1648952/2567781 reads
+	Command being timed: "velvetg /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/min-conti-500/ -ins_length 76.79104993766992 -exp_cov 36.96455550000001 -cov_cutoff auto -min_contig_lgth 500"
+	User time (seconds): 65.44
+	System time (seconds): 1.15
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 469628
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 219286
+	Voluntary context switches: 166
+	Involuntary context switches: 193
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,45 @@
+[0.000000] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1;
+[2.363797] 858989 sequences found
+[2.363799] Done
+[2.385908] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2;
+[4.110773] 858989 sequences found
+[4.110775] Done
+[4.122437] Reading FastQ file /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched;
+[5.611367] 849803 sequences found
+[5.611368] Done
+[5.659448] Reading read set file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//Sequences;
+[6.078868] 2567781 sequences found
+[8.140480] Done
+[8.140484] 2567781 sequences in total.
+[8.141370] Writing into roadmap file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//Roadmaps...
+[10.012080] Inputting sequences...
+[10.022221] Inputting sequence 0 / 2567781
+[822.915221] Inputting sequence 1000000 / 2567781
+[1635.305221] Inputting sequence 2000000 / 2567781
+[2096.500243]  === Sequences loaded in 2086.488175 s
+[2096.500498] Done inputting sequences
+[2096.500501] Destroying splay table
+[2096.513539] Splay table destroyed
+	Command being timed: "velveth /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/ 49 -fastq -shortPaired /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_1 /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq_2 -fastq -short /projects/bgmp/shared/Bi621/800_3_PE5_interleaved.fq.unmatched"
+	User time (seconds): 2095.03
+	System time (seconds): 1.28
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 34:56.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 688324
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 805742
+	Voluntary context switches: 344
+	Involuntary context switches: 163719
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,157 @@
+[0.000000] Reading roadmap file /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//Roadmaps
+[3.775988] 2567781 roadmaps read
+[3.776860] Creating insertion markers
+[4.209114] Ordering insertion markers
+[5.644252] Counting preNodes
+[5.867160] 1228385 preNodes counted, creating them now
+[7.955619] Sequence 1000000 / 2567781
+[9.407794] Sequence 2000000 / 2567781
+[10.170894] Adjusting marker info...
+[10.446216] Connecting preNodes
+[11.987439] Connecting 1000000 / 2567781
+[13.426718] Connecting 2000000 / 2567781
+[14.103961] Cleaning up memory
+[14.104585] Done creating preGraph
+[14.104595] Concatenation...
+[14.347182] Renumbering preNodes
+[14.347184] Initial preNode count 1228385
+[14.357181] Destroyed 1108466 preNodes
+[14.357183] Concatenation over!
+[14.357183] Clipping short tips off preGraph
+[14.389408] Concatenation...
+[14.444613] Renumbering preNodes
+[14.444615] Initial preNode count 119919
+[14.446019] Destroyed 104428 preNodes
+[14.446020] Concatenation over!
+[14.446021] 62938 tips cut off
+[14.446021] 15491 nodes left
+[14.446984] Writing into pregraph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//PreGraph...
+[14.539196] Reading read set file /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//Sequences;
+[15.028507] 2567781 sequences found
+[16.930956] Done
+[18.672949] Reading pre-graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//PreGraph
+[18.675233] Graph has 15491 nodes and 2567781 sequences
+[18.715563] Scanning pre-graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//PreGraph for k-mers
+[18.745536] 1644251 kmers found
+[18.862654] Sorting kmer occurence table ... 
+[19.479864] Sorting done.
+[19.479868] Computing acceleration table... 
+[19.519528] Computing offsets... 
+[19.530583] Ghost Threading through reads 0 / 2567781
+[27.241756] Ghost Threading through reads 1000000 / 2567781
+[34.484870] Ghost Threading through reads 2000000 / 2567781
+[37.929246]  === Ghost-Threaded in 18.398701 s
+[37.929254] Threading through reads 0 / 2567781
+[46.707097] Threading through reads 1000000 / 2567781
+[54.886906] Threading through reads 2000000 / 2567781
+[58.795917]  === Threaded in 20.866666 s
+[58.957149] Correcting graph with cutoff 0.200000
+[58.957697] Determining eligible starting points
+[58.969873] Done listing starting nodes
+[58.969874] Initializing todo lists
+[58.970910] Done with initilization
+[58.970911] Activating arc lookup table
+[58.971703] Done activating arc lookup table
+[59.129701] 10000 / 15491 nodes visited
+[59.144472] Concatenation...
+[59.144966] Renumbering nodes
+[59.144967] Initial node count 15491
+[59.145211] Removed 5328 null nodes
+[59.145212] Concatenation over!
+[59.145212] Clipping short tips off graph, drastic
+[59.148468] Concatenation...
+[59.156650] Renumbering nodes
+[59.156651] Initial node count 10163
+[59.156779] Removed 4245 null nodes
+[59.156779] Concatenation over!
+[59.156780] 5918 nodes left
+[59.157913] Writing into graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//Graph2...
+[59.830367] Removing contigs with coverage < 60.000000...
+[59.849220] Concatenation...
+[59.879857] Renumbering nodes
+[59.879858] Initial node count 5918
+[59.879902] Removed 4980 null nodes
+[59.879902] Concatenation over!
+[59.879923] Concatenation...
+[59.879950] Renumbering nodes
+[59.879951] Initial node count 938
+[59.879952] Removed 0 null nodes
+[59.879952] Concatenation over!
+[59.879958] Clipping short tips off graph, drastic
+[59.880305] Concatenation...
+[59.881196] Renumbering nodes
+[59.881197] Initial node count 938
+[59.881213] Removed 254 null nodes
+[59.881213] Concatenation over!
+[59.881214] 684 nodes left
+[59.881214] Read coherency...
+[59.881219] Identifying unique nodes
+[59.881229] Done, 0 unique nodes counted
+[59.881229] Trimming read tips
+[59.881235] Renumbering nodes
+[59.881236] Initial node count 684
+[59.881236] Removed 0 null nodes
+[59.881237] Confronted to 0 multiple hits and 0 null over 0
+[59.881237] Read coherency over!
+[59.897424] Starting pebble resolution...
+[59.907402] Computing read to node mapping array sizes
+[59.952073] Computing read to node mappings
+[60.199458] Estimating library insert lengths...
+[60.211016] Done
+[60.211021] Computing direct node to node mappings
+[60.211054] Scaffolding node 0
+[60.211070]  === Nodes Scaffolded in 0.000049 s
+[60.211086] Preparing to correct graph with cutoff 0.200000
+[60.211175] Cleaning memory
+[60.211176] Deactivating local correction settings
+[60.211182] Pebble done.
+[60.211183] Starting pebble resolution...
+[60.221088] Computing read to node mapping array sizes
+[60.265181] Computing read to node mappings
+[60.513021] Estimating library insert lengths...
+[60.526072] Done
+[60.526076] Computing direct node to node mappings
+[60.526104] Scaffolding node 0
+[60.526121]  === Nodes Scaffolded in 0.000044 s
+[60.526138] Preparing to correct graph with cutoff 0.200000
+[60.526231] Cleaning memory
+[60.526232] Deactivating local correction settings
+[60.526239] Pebble done.
+[60.526240] Concatenation...
+[60.526297] Renumbering nodes
+[60.526298] Initial node count 684
+[60.526299] Removed 0 null nodes
+[60.526301] Concatenation over!
+[60.526302] Removing reference contigs with coverage < 60.000000...
+[60.526324] Concatenation...
+[60.526340] Renumbering nodes
+[60.526340] Initial node count 684
+[60.526342] Removed 0 null nodes
+[60.526344] Concatenation over!
+[60.537639] Writing contigs into /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//contigs.fa...
+[60.783430] Writing into stats file /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//stats.txt...
+[60.793438] Writing into graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x//LastGraph...
+Final graph has 684 nodes and n50 of 2057, max 7220, total 382830, using 1136854/2567781 reads
+	Command being timed: "velvetg /projects/bgmp/sseale/projects/ps6/kmer49/cut-60x/ -ins_length 76.79104993766992 -exp_cov 36.96455550000001 -cov_cutoff 60"
+	User time (seconds): 59.89
+	System time (seconds): 1.09
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:01.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 469556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 211510
+	Voluntary context switches: 187
+	Involuntary context switches: 160
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,65 @@
+# of contigs: 11973
+max contig length: 4077
+mean contig length: 201.46504635429716
+genome length: 2412141
+This is the mean kmer depth of coverage: 37.50741756660823
+This is the mean depth of coverage: 59.46578158862377
+N50: 270
+# Contig length	Number of contigs in this category
+0 	 3342
+100 	 6175
+200 	 752
+300 	 465
+400 	 317
+500 	 213
+600 	 169
+700 	 123
+800 	 88
+900 	 61
+1000 	 49
+1100 	 34
+1200 	 37
+1300 	 28
+1400 	 18
+1500 	 20
+1600 	 13
+1700 	 13
+1800 	 15
+1900 	 6
+2000 	 6
+2100 	 4
+2200 	 6
+2300 	 5
+2400 	 1
+2500 	 3
+2600 	 1
+2700 	 1
+2800 	 2
+2900 	 2
+3100 	 1
+3700 	 1
+3800 	 1
+4000 	 1
+	Command being timed: "python3 /projects/bgmp/sseale/projects/ps6/ps6.py"
+	User time (seconds): 2.12
+	System time (seconds): 0.28
+	Percent of CPU this job got: 34%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51492
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24568
+	Voluntary context switches: 2993
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 24
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,160 @@
+[0.000001] Reading roadmap file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//Roadmaps
+[3.955825] 2567781 roadmaps read
+[3.956659] Creating insertion markers
+[4.388500] Ordering insertion markers
+[5.823760] Counting preNodes
+[6.046026] 1228385 preNodes counted, creating them now
+[8.144835] Sequence 1000000 / 2567781
+[9.601866] Sequence 2000000 / 2567781
+[10.358193] Adjusting marker info...
+[10.633164] Connecting preNodes
+[12.176641] Connecting 1000000 / 2567781
+[13.617905] Connecting 2000000 / 2567781
+[14.318578] Cleaning up memory
+[14.319197] Done creating preGraph
+[14.319203] Concatenation...
+[14.559608] Renumbering preNodes
+[14.559609] Initial preNode count 1228385
+[14.569506] Destroyed 1108466 preNodes
+[14.569508] Concatenation over!
+[14.569509] Clipping short tips off preGraph
+[14.601679] Concatenation...
+[14.656416] Renumbering preNodes
+[14.656417] Initial preNode count 119919
+[14.657790] Destroyed 104428 preNodes
+[14.657792] Concatenation over!
+[14.657792] 62938 tips cut off
+[14.657793] 15491 nodes left
+[14.658687] Writing into pregraph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//PreGraph...
+[14.755133] Reading read set file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//Sequences;
+[15.208849] 2567781 sequences found
+[17.107378] Done
+[18.845117] Reading pre-graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//PreGraph
+[18.845178] Graph has 15491 nodes and 2567781 sequences
+[18.885536] Scanning pre-graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//PreGraph for k-mers
+[18.909253] 1644251 kmers found
+[19.012669] Sorting kmer occurence table ... 
+[19.633533] Sorting done.
+[19.633536] Computing acceleration table... 
+[19.664052] Computing offsets... 
+[19.674795] Ghost Threading through reads 0 / 2567781
+[27.412375] Ghost Threading through reads 1000000 / 2567781
+[34.662693] Ghost Threading through reads 2000000 / 2567781
+[38.088664]  === Ghost-Threaded in 18.413905 s
+[38.088670] Threading through reads 0 / 2567781
+[46.847025] Threading through reads 1000000 / 2567781
+[55.040566] Threading through reads 2000000 / 2567781
+[58.985194]  === Threaded in 20.896526 s
+[59.148551] Correcting graph with cutoff 0.200000
+[59.149091] Determining eligible starting points
+[59.161243] Done listing starting nodes
+[59.161244] Initializing todo lists
+[59.162276] Done with initilization
+[59.162277] Activating arc lookup table
+[59.163065] Done activating arc lookup table
+[59.322853] 10000 / 15491 nodes visited
+[59.337252] Concatenation...
+[59.337728] Renumbering nodes
+[59.337728] Initial node count 15491
+[59.337968] Removed 5328 null nodes
+[59.337968] Concatenation over!
+[59.337969] Clipping short tips off graph, drastic
+[59.341150] Concatenation...
+[59.349131] Renumbering nodes
+[59.349132] Initial node count 10163
+[59.349263] Removed 4245 null nodes
+[59.349264] Concatenation over!
+[59.349264] 5918 nodes left
+[59.351773] Writing into graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//Graph2...
+[60.028833] Measuring median coverage depth...
+[60.030301] Median coverage depth = 33.752161
+[60.030339] Removing contigs with coverage < 16.876081...
+[60.033600] Concatenation...
+[60.068797] Renumbering nodes
+[60.068798] Initial node count 5918
+[60.068872] Removed 3662 null nodes
+[60.068873] Concatenation over!
+[60.068924] Concatenation...
+[60.069002] Renumbering nodes
+[60.069003] Initial node count 2256
+[60.069005] Removed 0 null nodes
+[60.069005] Concatenation over!
+[60.069012] Clipping short tips off graph, drastic
+[60.069295] Concatenation...
+[60.069780] Renumbering nodes
+[60.069780] Initial node count 2256
+[60.069827] Removed 89 null nodes
+[60.069828] Concatenation over!
+[60.069828] 2167 nodes left
+[60.069830] Read coherency...
+[60.069854] Identifying unique nodes
+[60.069896] Done, 750 unique nodes counted
+[60.069897] Trimming read tips
+[60.069963] Renumbering nodes
+[60.069964] Initial node count 2167
+[60.069966] Removed 0 null nodes
+[60.069966] Confronted to 0 multiple hits and 0 null over 0
+[60.069967] Read coherency over!
+[60.080025] Starting pebble resolution...
+[60.090323] Computing read to node mapping array sizes
+[60.152158] Computing read to node mappings
+[60.632074] Estimating library insert lengths...
+[60.643485] Done
+[60.643492] Computing direct node to node mappings
+[60.713510] Scaffolding node 0
+[60.786862]  === Nodes Scaffolded in 0.143369 s
+[60.793146] Preparing to correct graph with cutoff 0.200000
+[60.795925] Cleaning memory
+[60.795928] Deactivating local correction settings
+[60.795946] Pebble done.
+[60.795947] Starting pebble resolution...
+[60.806669] Computing read to node mapping array sizes
+[60.868750] Computing read to node mappings
+[61.351556] Estimating library insert lengths...
+[61.364863] Done
+[61.364870] Computing direct node to node mappings
+[61.435033] Scaffolding node 0
+[61.507717]  === Nodes Scaffolded in 0.142846 s
+[61.513921] Preparing to correct graph with cutoff 0.200000
+[61.516655] Cleaning memory
+[61.516657] Deactivating local correction settings
+[61.516674] Pebble done.
+[61.516675] Concatenation...
+[61.516754] Renumbering nodes
+[61.516755] Initial node count 2167
+[61.516758] Removed 0 null nodes
+[61.516767] Concatenation over!
+[61.516768] Removing reference contigs with coverage < 16.876081...
+[61.516847] Concatenation...
+[61.516920] Renumbering nodes
+[61.516920] Initial node count 2167
+[61.516922] Removed 0 null nodes
+[61.516932] Concatenation over!
+[61.528327] Writing contigs into /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//contigs.fa...
+[61.962491] Writing into stats file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//stats.txt...
+[61.981193] Writing into graph file /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto//LastGraph...
+[62.496701] Estimated Coverage cutoff = 16.876081
+Final graph has 2167 nodes and n50 of 1774, max 10419, total 1143128, using 1904165/2567781 reads
+	Command being timed: "velvetg /projects/bgmp/sseale/projects/ps6/kmer49/cut-auto/ -ins_length 76.79104993766992 -exp_cov 36.96455550000001 -cov_cutoff auto"
+	User time (seconds): 61.30
+	System time (seconds): 1.14
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:02.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 469616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 261866
+	Voluntary context switches: 187
+	Involuntary context switches: 164
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

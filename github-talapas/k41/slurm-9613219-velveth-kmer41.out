@@ -1,0 +1,168 @@
+[0.000000] Reading roadmap file /projects/bgmp/sseale/projects/ps6/kmer41//Roadmaps
+[4.207302] 2567781 roadmaps read
+[4.208210] Creating insertion markers
+[4.689050] Ordering insertion markers
+[6.492425] Counting preNodes
+[6.740014] 1298156 preNodes counted, creating them now
+[8.989894] Sequence 1000000 / 2567781
+[10.581315] Sequence 2000000 / 2567781
+[11.419009] Adjusting marker info...
+[11.729397] Connecting preNodes
+[13.814101] Connecting 1000000 / 2567781
+[15.793714] Connecting 2000000 / 2567781
+[16.770064] Cleaning up memory
+[16.770686] Done creating preGraph
+[16.770692] Concatenation...
+[17.048832] Renumbering preNodes
+[17.048836] Initial preNode count 1298156
+[17.062316] Destroyed 1137712 preNodes
+[17.062318] Concatenation over!
+[17.062319] Clipping short tips off preGraph
+[17.094896] Concatenation...
+[17.162029] Renumbering preNodes
+[17.162030] Initial preNode count 160444
+[17.165960] Destroyed 110963 preNodes
+[17.165962] Concatenation over!
+[17.165962] 67087 tips cut off
+[17.165963] 49481 nodes left
+[17.166928] Writing into pregraph file /projects/bgmp/sseale/projects/ps6/kmer41//PreGraph...
+[17.345365] Reading read set file /projects/bgmp/sseale/projects/ps6/kmer41//Sequences;
+[17.759048] 2567781 sequences found
+[19.784804] Done
+[21.661900] Reading pre-graph file /projects/bgmp/sseale/projects/ps6/kmer41//PreGraph
+[21.664181] Graph has 49481 nodes and 2567781 sequences
+[21.747073] Scanning pre-graph file /projects/bgmp/sseale/projects/ps6/kmer41//PreGraph for k-mers
+[21.785970] 2156052 kmers found
+[21.957740] Sorting kmer occurence table ... 
+[22.872856] Sorting done.
+[22.872859] Computing acceleration table... 
+[22.912983] Computing offsets... 
+[22.929177] Ghost Threading through reads 0 / 2567781
+[33.323305] Ghost Threading through reads 1000000 / 2567781
+[43.090237] Ghost Threading through reads 2000000 / 2567781
+[47.899102]  === Ghost-Threaded in 24.970068 s
+[47.899108] Threading through reads 0 / 2567781
+[59.814961] Threading through reads 1000000 / 2567781
+[70.995950] Threading through reads 2000000 / 2567781
+[76.486664]  === Threaded in 28.587558 s
+[76.754599] Correcting graph with cutoff 0.200000
+[76.756804] Determining eligible starting points
+[76.799082] Done listing starting nodes
+[76.799085] Initializing todo lists
+[76.802534] Done with initilization
+[76.802535] Activating arc lookup table
+[76.805340] Done activating arc lookup table
+[76.988315] 10000 / 49481 nodes visited
+[77.117736] 20000 / 49481 nodes visited
+[77.239790] 30000 / 49481 nodes visited
+[77.318487] 40000 / 49481 nodes visited
+[77.338919] 50000 / 49481 nodes visited
+[77.339299] Concatenation...
+[77.341348] Renumbering nodes
+[77.341350] Initial node count 49481
+[77.342018] Removed 24942 null nodes
+[77.342030] Concatenation over!
+[77.342031] Clipping short tips off graph, drastic
+[77.353393] Concatenation...
+[77.393779] Renumbering nodes
+[77.393781] Initial node count 24539
+[77.394170] Removed 13665 null nodes
+[77.394171] Concatenation over!
+[77.394171] 10874 nodes left
+[77.398952] Writing into graph file /projects/bgmp/sseale/projects/ps6/kmer41//Graph2...
+[78.353703] WARNING: NO COVERAGE CUTOFF PROVIDED
+[78.353705] Velvet will probably leave behind many detectable errors
+[78.353705] See manual for instructions on how to set the coverage cutoff parameter
+[78.353712] Removing contigs with coverage < -1.000000...
+[78.354917] Concatenation...
+[78.355968] Renumbering nodes
+[78.355969] Initial node count 10874
+[78.355979] Removed 0 null nodes
+[78.355980] Concatenation over!
+[78.356256] Concatenation...
+[78.356740] Renumbering nodes
+[78.356740] Initial node count 10874
+[78.356750] Removed 0 null nodes
+[78.356750] Concatenation over!
+[78.356754] Clipping short tips off graph, drastic
+[78.357010] Concatenation...
+[78.357490] Renumbering nodes
+[78.357490] Initial node count 10874
+[78.357498] Removed 0 null nodes
+[78.357499] Concatenation over!
+[78.357499] 10874 nodes left
+[78.357500] Read coherency...
+[78.357627] Identifying unique nodes
+[78.357827] Done, 2517 unique nodes counted
+[78.357827] Trimming read tips
+[78.358217] Renumbering nodes
+[78.358217] Initial node count 10874
+[78.358225] Removed 0 null nodes
+[78.358225] Confronted to 0 multiple hits and 0 null over 0
+[78.358226] Read coherency over!
+[78.367034] Starting pebble resolution...
+[78.380609] Computing read to node mapping array sizes
+[78.487140] Computing read to node mappings
+[79.345930] Estimating library insert lengths...
+[79.359467] Done
+[79.359492] Computing direct node to node mappings
+[79.359593] Scaffolding node -10000
+[79.495703] Scaffolding node 0
+[79.636597] Scaffolding node 10000
+[79.640411]  === Nodes Scaffolded in 0.280918 s
+[79.650662] Preparing to correct graph with cutoff 0.200000
+[79.711514] Cleaning memory
+[79.711518] Deactivating local correction settings
+[79.711591] Pebble done.
+[79.711592] Starting pebble resolution...
+[79.722727] Computing read to node mapping array sizes
+[79.826948] Computing read to node mappings
+[80.684995] Estimating library insert lengths...
+[80.698977] Done
+[80.699002] Computing direct node to node mappings
+[80.699087] Scaffolding node -10000
+[80.833670] Scaffolding node 0
+[80.973135] Scaffolding node 10000
+[80.976945]  === Nodes Scaffolded in 0.277942 s
+[80.987179] Preparing to correct graph with cutoff 0.200000
+[81.018389] Cleaning memory
+[81.018392] Deactivating local correction settings
+[81.018461] Pebble done.
+[81.018462] Concatenation...
+[81.019076] Renumbering nodes
+[81.019077] Initial node count 10874
+[81.019249] Removed 7 null nodes
+[81.019297] Concatenation over!
+[81.019298] Removing reference contigs with coverage < -1.000000...
+[81.019693] Concatenation...
+[81.020143] Renumbering nodes
+[81.020144] Initial node count 10867
+[81.020152] Removed 0 null nodes
+[81.020199] Concatenation over!
+[81.031638] Writing contigs into /projects/bgmp/sseale/projects/ps6/kmer41//contigs.fa...
+[81.547222] Writing into stats file /projects/bgmp/sseale/projects/ps6/kmer41//stats.txt...
+[81.604375] Writing into graph file /projects/bgmp/sseale/projects/ps6/kmer41//LastGraph...
+Final graph has 10867 nodes and n50 of 843, max 7403, total 1606727, using 2163563/2567781 reads
+	Command being timed: "velvetg /projects/bgmp/sseale/projects/ps6/kmer41/ -ins_length 76.79104993766992 -exp_cov 47.23567950000001"
+	User time (seconds): 81.21
+	System time (seconds): 1.35
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:22.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 469620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 268342
+	Voluntary context switches: 152
+	Involuntary context switches: 201
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
